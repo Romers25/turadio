@@ -41,7 +41,7 @@ h6,
 .h5,
 .h6 {
   /*COLOR APLICADO A TODOS LOS TITULOS Y SUBTITULOS DE SECCIONES*/
-  color: #666666;
+  color: #151515;
 }
 /*COLOR PARA LA BARRA DE NAVEGACION PRINCIPAL*/
 header .navbar-default {
@@ -773,10 +773,12 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
+/*COLOR DE TEXTO NOMBRE DE PAGINAS PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a {
   color: #ffffff;
   background: none;
 }
+/*COLOR DE TEXTO BOTON INICIO PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a.getApp {
   color: #3c79b4;
   background: #ffffff;
@@ -828,15 +830,22 @@ header .navbar-default ul.navbar-nav li a:hover {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
+/*COLOR DE BARRA EN MENU PRINCIPAL */
 header .navbar-default.scrolled {
   border-bottom: 3px solid #336799;
 }
+
+/*COLO DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
+
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #336799;
 }
+/* COLO DE TEXTO AL PASAR EL MAUSE ENCIMA DE LA BARRA PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #336799;
 }
+/* COLOR RAYITA DE ABAJO DE TEXTO MENU PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
   background: #336799;
 }
@@ -846,7 +855,7 @@ header .navbar-default.scrolled .navbar-brand {
 }
 /*COLOR LINEA DIVISORA ENTRE TITULO DE SECCION Y TEXTO DESCRIPTIVO DE CADA SECCION*/
 section .section-heading .divider:after {
-  background: #66cdcc;
+  background: #FDA73F;
 }
 section#about .about-item i.fa {
   border: 2px solid #66cdcc;
@@ -856,11 +865,14 @@ section#about .about-item:hover i.fa {
   color: #ffffff;
   background: #66cdcc;
 }
+
+/* COLOR DE TEXCO AL PASAR EL MAUSE DE RADIOS ON LINE */
 section#about .about-item:hover h3 {
-  color: #66cdcc;
+  color: #FF953D;
 }
+/*COLO DE FONDON RADIOS FM */
 section#features {
-  background: #f6f6f6;
+  background: #FFFFFF;
 }
 section#features header h1:after {
   background: #66cdcc;
@@ -873,8 +885,9 @@ section#features .media:hover i.fa {
   color: #ffffff;
   background: #66cdcc;
 }
+/* COLOR DE TEXTO AL PASAR EL MAUSE RADIOS FM */
 section#features .media:hover h3 {
-  color: #66cdcc;
+  color: #FF953D;
 }
 section#features .media.active i.fa {
   color: #ffffff;
