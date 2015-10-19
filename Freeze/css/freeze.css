@@ -161,7 +161,7 @@ header .navbar-default.scrolled ul.navbar-nav {
 }
 .section-heading h1 {
   display: inline-block;
-  font-size: 55px;
+  font-size: 30px;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -176,7 +176,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   content: "";
   position: relative;
   height: 4px;
-  width: 60px;
+  width: 150px;
   display: block;
   text-align: center;
   margin: 13px auto;
@@ -755,32 +755,34 @@ form textarea.form-control {
     -webkit-transform: scale(1);
   }
 }
+
+/* COLOR DE PAGINA PRINCIPAL */
 header {
-  background: #66cdcc;
+  background: #ff6600;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #FF953D), color-stop(100%, #ffc186));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 /*COLOR DE TEXTO NOMBRE DE PAGINAS PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a {
-  color: #ffffff;
+  color: #000000;
   background: none;
 }
 /*COLOR DE TEXTO BOTON INICIO PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a.getApp {
-  color: #3c79b4;
+  color: #000000;
   background: #ffffff;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
@@ -1016,7 +1018,7 @@ section#support .media:hover i.fa {
 section#support .media:hover h3 {
   color: #FF631E;
 }
-/* footer section */
+/* footer section color de la parte final */
 footer {
   background: #66cdcc;
   /* Old browsers */
@@ -1074,8 +1076,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #000000;
+  border-color: #ffffff;
 }
 .btn.btn-default {
   background: #ffffff;
