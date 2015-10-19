@@ -835,21 +835,21 @@ header .navbar-default ul.navbar-nav li a:hover {
 
 /*COLOR DE BARRA EN MENU PRINCIPAL */
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #336799;
+  border-bottom: 3px solid #EDEBE8;
 }
 
-/*COLO DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
+/*COLOR DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
 
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #73777A;
 }
 /* COLO DE TEXTO AL PASAR EL MAUSE ENCIMA DE LA BARRA PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #336799;
+  color: #FF6600;
 }
 /* COLOR RAYITA DE ABAJO DE TEXTO MENU PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #336799;
+  background: #000000;
 }
 /*FONDO PARA EL LOGO DEL NAV*/
 header .navbar-default.scrolled .navbar-brand {
@@ -1137,5 +1137,5 @@ form .form-control:focus {
   }
 }
 .pre-loader {
-  background: #336799;
+  background: #ffbb7b;
 }
