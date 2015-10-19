@@ -839,7 +839,7 @@ header .navbar-default.scrolled {
 /*COLO DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
 
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
+  color: #73777A;
 }
 /* COLO DE TEXTO AL PASAR EL MAUSE ENCIMA DE LA BARRA PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
@@ -857,8 +857,12 @@ header .navbar-default.scrolled .navbar-brand {
 section .section-heading .divider:after {
   background: #FDA73F;
 }
+
+section#about {
+  background: url("../img/freeze/bk-freeze-ga.jpg");
+}
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
+  border: 2px solid #FF953D;
   color: #66cdcc;
 }
 section#about .about-item:hover i.fa {
