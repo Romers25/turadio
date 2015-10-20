@@ -155,8 +155,9 @@ header .navbar-default.scrolled ul.navbar-nav {
   z-index: 0;
   bottom: -70px;
 }
+                            /* Distancia entre Titulo de seccion y Contenido */
 .section-heading {
-  margin: 60px 0 80px;
+  margin: 60px 0 30px;
   text-align: center;
 }
 .section-heading h1 {
@@ -169,7 +170,7 @@ header .navbar-default.scrolled ul.navbar-nav {
                             /*COLOR DE TEXTO QUE ESTA BAJO LOS TITULOS DE CADA UNA DE LAS SECCIONES*/
 .section-heading p {
   font-size: 25px;
-  color: #999999;
+  color: #000000;
   font-weight: 300;
 }
 .section-heading .divider:after {
@@ -328,7 +329,7 @@ section#reviews .review-filtering .slick-dots li button:before {
   display: none;
 }
 section#screens .slider {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 section#screens .slider div img {
   -webkit-border-radius: 20px;
@@ -801,7 +802,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a.getApp:hover {
-  color: #4081bf;
+  color: #FFFFFF;
   background: #ffffff;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
@@ -933,8 +934,8 @@ section#reviews .review-filtering .slick-dots li button {
 section#reviews .review-filtering .slick-dots li.slick-active button {
   background: #66cdcc;
 }
-section#screens header h1:after {
-  background: #66cdcc;
+section#screens {
+  background: url("../img/freeze/bk-freeze-gaaa.jpg");
 }
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
@@ -942,7 +943,7 @@ section#screens .slider div img {
 
                                 /* colo de letras que esta bajo el slider */
 section#screens .slider div h4 {
-  color: #999999;
+  color: #000000;
 }
 section#screens .slider .slick-dots li button {
   background: #999999;
@@ -952,19 +953,19 @@ section#screens .slider .slick-dots li.slick-active button {
 }
                                 /* colo de letra y borde de los botones estatico*/
 section#screens .filter a {
-  border: 2px solid #cccccc;
-  color: #999999;
+  border: 2px solid #FF953D;
+  color: #000000;
 }
                                 /* Color de Letra Borde y Fondo al pasar el Mause */
 section#screens .filter a:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #000000;
+  border-color: #ffffff;
 }
 section#screens .filter a.active {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #FF953D;
+  border-color: #ffffff;
 }
 /* demo video Section */
 section#demo {
@@ -1000,43 +1001,43 @@ section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
   color: #66cdcc;
 }
-/* support section */
+                                          /* Pagina contactenos */
 section#support header h1:after {
   background: #66cdcc;
 }
 section#support .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #FF953D;
+  color: #FF953D;
 }
 
                                         /*COLOR DE TEXTO EN EL CORREO DE CONTACTENOS*/
-section#support .media a {
-  color: #66cdcc;
+section#support {
+  background: #EDEBE8
 }
 section#support .media:hover i.fa {
                                       /*COLOR QUE TOMA EL ICON DENTRO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
   color: #ffffff;
                                       /*COLOR DE RELLENO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
-  background: #66cdcc;
+  background: #FF953D;
 }
 section#support .media:hover h3 {
-  color: #FF631E;
+  color: #FF953D;
 }
-/* footer section color de la parte final */
+                                    /* footer section color de la parte final */
 footer {
-  background: #66cdcc;
+  background: #ff6600;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #FF953D), color-stop(100%, #ffc186));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #ff6600 0%, #ffc186 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -1051,7 +1052,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #66cdcc;
+  color: #000000;
 }
 footer .rights {
   color: #ffffff;
@@ -1104,40 +1105,40 @@ footer .rights a {
 }
 .btn.btn-default:hover {
   color: #336799;
-}
+}                               /* Resplandor Formulario contactenos*/
 form .form-control:focus {
-  border-color: #66cdcc;
+  border-color: #FF953D;
   color: #999999;
 }
 @media screen and (max-width: 640px) {
   header .navbar-default .navbar-toggle:hover,
   header .navbar-default .navbar-toggle:focus {
     background: none;
-  }
+  }                                                /* Color de Barra responsive */
   header .navbar-default ul.navbar-nav li a {
     color: #ffffff;
-    border-bottom: 1px solid #376fa4;
+    border-bottom: 1px solid #FF953D;
   }
   header .navbar-default ul.navbar-nav li a.getApp {
-    color: #ffffff;
+    color: #ffffff;                              
   }
   header .navbar-default ul.navbar-nav li a:after {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #66cdcc;                   
   }
   header .navbar-default .navbar-collapse {
-    background: #336799;
+    background: #fbbe8c;                          /* Color de BARRA QUE SE DESPLIEGA responsive */
   }
   header .navbar-default.scrolled {
-    background: #336799;
+    background: #FF953D;                          /* Color de BARRA SUPERIOR QUE SE DESPLIEGA responsive */
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
-    color: #ffffff;
+    color: #ffffff;                               /* Color de TEXTO responsive */
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #000000;                               /* Color de TEXTO AL PASAR MAUSE responsive */
   }
 }
 .pre-loader {
