@@ -15,7 +15,7 @@
   width: 100%;
   height: 100%;
 }
-/*COLOR DE TEXTO APLICADO EN EL PURO BODY*/
+                                        /*COLOR DE TEXTO APLICADO EN EL PURO BODY*/
 body {
   font-family: 'Lato', Arial;
   color: #f23824;
@@ -40,10 +40,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  /*COLOR APLICADO A TODOS LOS TITULOS Y SUBTITULOS DE SECCIONES*/
+                                       /*COLOR APLICADO A TODOS LOS TITULOS Y SUBTITULOS DE SECCIONES*/
   color: #151515;
 }
-/*COLOR PARA LA BARRA DE NAVEGACION PRINCIPAL*/
+                                      /*COLOR PARA LA BARRA DE NAVEGACION PRINCIPAL*/
 header .navbar-default {
   background: none;
   border: none;
@@ -97,7 +97,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/*COLOR QUE SUBRAYA CADA MENU CUANDO SE LE PONE O PASA MOUSE ENCIMA*/
+                                    /*COLOR QUE SUBRAYA CADA MENU CUANDO SE LE PONE O PASA MOUSE ENCIMA*/
 header .navbar-default ul.navbar-nav li a:hover:after {
   background: #ffffff;
 }
@@ -120,7 +120,7 @@ header .navbar-default .navbar-brand {
   height: auto;
   padding: 0;
 }
-/*COLOR DE BARRA NAV AL HACER SCROLL Y GRADO DE TRANSPARENCIA*/
+                                      /*COLOR DE BARRA NAV AL HACER SCROLL Y GRADO DE TRANSPARENCIA*/
 header .navbar-default.scrolled {
   background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
@@ -166,7 +166,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   margin-bottom: 0;
 }
 
-/*COLOR DE TEXTO QUE ESTA BAJO LOS TITULOS DE CADA UNA DE LAS SECCIONES*/
+                            /*COLOR DE TEXTO QUE ESTA BAJO LOS TITULOS DE CADA UNA DE LAS SECCIONES*/
 .section-heading p {
   font-size: 25px;
   color: #999999;
@@ -197,7 +197,7 @@ section#about {
   position: relative;
 }
 
-/*COLOR TEXTO DESCRIPCIONES BAJO CIRCULOS EN RADIO ONLINE*/
+                                    /*COLOR TEXTO DESCRIPCIONES BAJO CIRCULOS EN RADIO ONLINE*/
 section#about .about-item {
   text-align: center;
   font-size: 17px;
@@ -240,7 +240,7 @@ section#features .media .media-heading {
   padding-top: 10px;
   font-weight: 300;
 }
-/*SECCION RADIOS FM -- COLOR DE TEXTOS BAJO CADA UNO DE LOS NOMBRES DE LAS RADIOS*/
+                                    /*SECCION RADIOS FM -- COLOR DE TEXTOS BAJO CADA UNO DE LOS NOMBRES DE LAS RADIOS*/
 section#features .media .media-body {
   color: #999999;
 }
@@ -756,7 +756,7 @@ form textarea.form-control {
   }
 }
 
-/* COLOR DE PAGINA PRINCIPAL */
+                                                      /* COLOR DE PAGINA PRINCIPAL */
 header {
   background: #ff6600;
   /* Old browsers */
@@ -775,12 +775,12 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
-/*COLOR DE TEXTO NOMBRE DE PAGINAS PAGINA PRINCIPAL */
+                                              /*COLOR DE TEXTO NOMBRE DE PAGINAS PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a {
   color: #000000;
   background: none;
 }
-/*COLOR DE TEXTO BOTON INICIO PAGINA PRINCIPAL */
+                                              /*COLOR DE TEXTO BOTON INICIO PAGINA PRINCIPAL */
 header .navbar-default ul.navbar-nav li a.getApp {
   color: #000000;
   background: #ffffff;
@@ -833,29 +833,29 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 
-/*COLOR DE BARRA EN MENU PRINCIPAL */
+                                  /*COLOR DE BARRA EN MENU PRINCIPAL */
 header .navbar-default.scrolled {
   border-bottom: 3px solid #EDEBE8;
 }
 
-/*COLOR DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
+                                  /*COLOR DE TEXTO BARRA DE MENU AL BAJAR A PAGINAS */
 
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #73777A;
 }
-/* COLO DE TEXTO AL PASAR EL MAUSE ENCIMA DE LA BARRA PRINCIPAL */
+                                  /* COLO DE TEXTO AL PASAR EL MAUSE ENCIMA DE LA BARRA PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #FF6600;
 }
-/* COLOR RAYITA DE ABAJO DE TEXTO MENU PRINCIPAL */
+                                  /* COLOR RAYITA DE ABAJO DE TEXTO MENU PRINCIPAL */
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
   background: #000000;
 }
-/*FONDO PARA EL LOGO DEL NAV*/
+                                /*FONDO PARA EL LOGO DEL NAV*/
 header .navbar-default.scrolled .navbar-brand {
  
 }
-/*COLOR LINEA DIVISORA ENTRE TITULO DE SECCION Y TEXTO DESCRIPTIVO DE CADA SECCION*/
+                              /*COLOR LINEA DIVISORA ENTRE TITULO DE SECCION Y TEXTO DESCRIPTIVO DE CADA SECCION*/
 section .section-heading .divider:after {
   background: #FDA73F;
 }
@@ -872,13 +872,13 @@ section#about .about-item:hover i.fa {
   background: #66cdcc;
 }
 
-/* COLOR DE TEXCO AL PASAR EL MAUSE DE RADIOS ON LINE */
+                            /* COLOR DE TEXCO AL PASAR EL MAUSE DE RADIOS ON LINE */
 section#about .about-item:hover h3 {
   color: #FF953D;
 }
-/*COLO DE FONDON RADIOS FM */
+                            /*COLO DE FONDON RADIOS FM */
 section#features {
-  background: #FFFFFF;
+  background: url("../img/freeze/bk-freeze-gaa.jpg");
 }
 section#features header h1:after {
   background: #66cdcc;
@@ -891,7 +891,7 @@ section#features .media:hover i.fa {
   color: #ffffff;
   background: #66cdcc;
 }
-/* COLOR DE TEXTO AL PASAR EL MAUSE RADIOS FM */
+                            /* COLOR DE TEXTO AL PASAR EL MAUSE RADIOS FM */
 section#features .media:hover h3 {
   color: #FF953D;
 }
@@ -939,6 +939,8 @@ section#screens header h1:after {
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
 }
+
+                                /* colo de letras que esta bajo el slider */
 section#screens .slider div h4 {
   color: #999999;
 }
@@ -948,10 +950,12 @@ section#screens .slider .slick-dots li button {
 section#screens .slider .slick-dots li.slick-active button {
   background: #66cdcc;
 }
+                                /* colo de letra y borde de los botones estatico*/
 section#screens .filter a {
   border: 2px solid #cccccc;
   color: #999999;
 }
+                                /* Color de Letra Borde y Fondo al pasar el Mause */
 section#screens .filter a:hover {
   color: #ffffff;
   background: #66cdcc;
@@ -1005,14 +1009,14 @@ section#support .media i.fa {
   color: #66cdcc;
 }
 
-/*COLOR DE TEXTO EN EL CORREO DE CONTACTENOS*/
+                                        /*COLOR DE TEXTO EN EL CORREO DE CONTACTENOS*/
 section#support .media a {
   color: #66cdcc;
 }
 section#support .media:hover i.fa {
-  /*COLOR QUE TOMA EL ICON DENTRO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
+                                      /*COLOR QUE TOMA EL ICON DENTRO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
   color: #ffffff;
-  /*COLOR DE RELLENO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
+                                      /*COLOR DE RELLENO DEL CIRCULO AL COLOCAR EL MOUSE ENCIMA*/
   background: #66cdcc;
 }
 section#support .media:hover h3 {
