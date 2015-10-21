@@ -854,7 +854,7 @@ header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
 }
                                 /*FONDO PARA EL LOGO DEL NAV*/
 header .navbar-default.scrolled .navbar-brand {
- 
+
 }
                               /*COLOR LINEA DIVISORA ENTRE TITULO DE SECCION Y TEXTO DESCRIPTIVO DE CADA SECCION*/
 section .section-heading .divider:after {
@@ -1120,13 +1120,13 @@ form .form-control:focus {
     border-bottom: 1px solid #FF953D;
   }
   header .navbar-default ul.navbar-nav li a.getApp {
-    color: #ffffff;                              
+    color: #ffffff;
   }
   header .navbar-default ul.navbar-nav li a:after {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #66cdcc;                   
+    color: #66cdcc;
   }
   header .navbar-default .navbar-collapse {
     background: #fbbe8c;                          /* Color de BARRA QUE SE DESPLIEGA responsive */
