@@ -203,7 +203,7 @@ section#about .about-item {
   text-align: center;
   font-size: 17px;
   line-height: 25px;
-  color: #999999;
+  color: #000000;
 }
 section#about .about-item i.fa {
   -webkit-border-radius: 50%;
@@ -403,11 +403,11 @@ section#screens .filter a {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* demo video Section */
+                                                  /* demo video Section */
 section#demo .video-container {
   padding: 20px;
   border: 1px solid #b3b3b3;
-  min-height: 450px;
+  min-height: 350px;
   overflow: hidden;
 }
 section#demo iframe {
@@ -415,7 +415,7 @@ section#demo iframe {
   height: 100%;
   border: none;
 }
-/* Get app Section */
+                                                    /* Get app Section */
 section#getApp {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -873,7 +873,7 @@ section#about .about-item:hover i.fa {
   background: #66cdcc;
 }
 
-                            /* COLOR DE TEXCO AL PASAR EL MAUSE DE RADIOS ON LINE */
+                            /* COLOR DE TEXTO AL PASAR EL MAUSE DE RADIOS ON LINE */
 section#about .about-item:hover h3 {
   color: #FF953D;
 }
@@ -969,7 +969,7 @@ section#screens .filter a.active {
 }
 /* demo video Section */
 section#demo {
-  background: #f6f6f6;
+  background: url("../img/freeze/bk-freeze-gaa.jpg");
 }
 section#demo header h1:after {
   background: #66cdcc;
