@@ -3097,7 +3097,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
+  background-color: #e82511;
   border-color: #204d74;
 }
 .btn-primary:active,
@@ -4492,19 +4492,19 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: #ff953d;
+  border-color: #FF953D;
 }
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: #f11111;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  color: #aeee11;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #9d9d9d;
+  color: #031ed2;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
