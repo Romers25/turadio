@@ -263,9 +263,9 @@ section#features img {
 }
 
 img:hover {
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
 section#reviews {
   -webkit-background-size: cover;
