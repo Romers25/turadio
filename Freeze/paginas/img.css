@@ -1,0 +1,14 @@
+.contenedor-imagen{
+    width:180px;
+    height:180px;
+    float:left;
+    overflow:hidden;
+    border:1px solid #ddd;
+    margin:15px;
+    border: 1px solid #ddd;
+    text-align:center;
+}
+
+.contenedor-imagen img{
+    position: relative;
+}
